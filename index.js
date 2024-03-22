@@ -4,7 +4,7 @@ var city=document.querySelector('#cityoutput');
 var descrip = document.querySelector('#description');
 var temp=document.querySelector('#temp');
 var wind=document.querySelector('#wind');
-apik="228b9322e881fbeeb3ef4c0dde16f4da";
+apik="63a90ae96d390ec37d6c1252f5a86e1a";
 function convertion(val)
 {
     return (val-273).toFixed(3);
