@@ -4,7 +4,10 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('weather.png');
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 .container{
     width: 600px;
@@ -15,8 +18,13 @@ body{
     padding: 2rem 0 2rem 0;
     text-align: center;
     justify-content: center;
-    background: rgb(224,190,190);
-    height: 150px;
+    background: rgba(228, 221, 221, 0.732);
+    height: 250px;
+    margin-top: 250px;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 15px;
+
 }
 .inputs input[type="text"]
 {
@@ -41,13 +49,19 @@ body{
     margin-top:20px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
 }
 
 .display
 {
     text-align: center;
+    margin-top: 25px;
+    margin-left: 30%;
     width:520px;
-    color: #16a864;
+    color: #08479a;
+    background-color: rgba(135, 140, 140, 0.659);
+    padding: 10px 10px;
+    border-radius: 10px;
 }
 
 .wrapper
